@@ -51,7 +51,6 @@ from PySide6 import QtCore, QtWidgets, QtGui
 from pyvistaqt import QtInteractor
 import pyvista as pv
 
-# (The large block of helper functions is omitted here for brevity, but is included in the full script below)
 # ------------------------- Math / lattice helpers -------------------------
 
 def fold_angle_deg(ang: float) -> float:
